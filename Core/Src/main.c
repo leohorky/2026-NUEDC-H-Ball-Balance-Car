@@ -147,26 +147,6 @@ void mode0(void){
 	flag=0;
 	HAL_Delay(20);
 }
-//void mode1(void){
-//	if(change_mode()){
-//		last_mode=mode;
-//		FastPID_Reset();
-//		tim_1=tim;
-//	}
-//	if(tim-tim_1<=8){FastPID_SetTarget(&Position,-50);}
-//	else if(tim-tim_1>=9 && tim-tim_1<=13){
-//		FastPID_Reset();
-//		FastPID_SetTarget(&Position,50);
-//	}
-//	else if(tim-tim_1>=65 && tim-tim_1<=70){FastPID_Reset();}
-//	if(tim-tim_1>=70){
-//		FastPID_SetTarget(&Position,-50);
-//	}
-//	Set_positon(now_out);
-//	flag=0;
-//	HAL_Delay(20);
-//
-//}
 
 void mode1(void){
 	if(change_mode()){
