@@ -1,0 +1,20 @@
+# STM32CubeIDE 工程忽略规则
+.cproject
+.project
+.mxproject
+.settings/
+*.launch
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.list
+*.map
+*.o
+*.d
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
