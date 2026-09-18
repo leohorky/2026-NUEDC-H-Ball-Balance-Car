@@ -2,6 +2,7 @@
 #include "pid.h"
 
 FastPID_t Position;
+//================= PID 参数设置 =================
 
 // 设置 PID 参数 (此函数只在修改参数时调用，不占用实时循环资源)
 void FastPID_SetParam(FastPID_t *pid, float kp, float ki, float kd)
